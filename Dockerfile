@@ -6,6 +6,7 @@ LABEL maintainer="MASH at University of Bath <mash@bath.ac.uk>"
 
 ##Set environment variables
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
+ENV DEBIAN_FRONTEND=noninteractive 
 
 RUN apt-get update --fix-missing && apt-get install -y wget bzip2 texlive-full \
     unzip \
