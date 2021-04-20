@@ -1,5 +1,5 @@
 # reference: https://hub.docker.com/_/ubuntu/
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 # Adds metadata to the image as a key value pair example LABEL version="1.0"
 LABEL maintainer="MASH at University of Bath <mash@bath.ac.uk>"
